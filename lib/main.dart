@@ -59,14 +59,14 @@ class Home extends StatelessWidget {
                                 TextSpan(
                                   text: 'My name is...\n',
                                   style: TextStyle(
-                                    fontWeight: FontWeight.normal, // Normal weight for this part
+                                    fontWeight: FontWeight.normal, 
                                   ),
                                 ),
                                 TextSpan(
                                   text: 'Ashley Denise Feliciano',
                                   style: TextStyle(
-                                    fontWeight: FontWeight.bold, // Bold for this part
-                                    fontFamily: 'SpicyRice', // Custom font for this part
+                                    fontWeight: FontWeight.bold, 
+                                    fontFamily: 'SpicyRice', 
                                   ),
                                 ),
                               ],
@@ -177,7 +177,7 @@ class Home extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(width: 20), // Adjust icon's position
+          SizedBox(width: 20), // Icon position
           Icon(icon, color: Colors.white),
           SizedBox(width: 10),
           Expanded(
